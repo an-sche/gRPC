@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	defaultName = "william"
+	defaultName = "go client"
 )
 
 var (

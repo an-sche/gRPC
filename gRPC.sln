@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "c#_project", "c#_project", "{BDC22D5A-595B-45C5-900D-FA3C717D4F3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "c#_server", "c#_server", "{3B731B3A-1E8B-4A16-905F-EF5868132D23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcServer", "c#_project\c#_server\GrpcServer\GrpcServer.csproj", "{39919461-12D0-4595-A003-8484E6D70FF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39919461-12D0-4595-A003-8484E6D70FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39919461-12D0-4595-A003-8484E6D70FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39919461-12D0-4595-A003-8484E6D70FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39919461-12D0-4595-A003-8484E6D70FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B731B3A-1E8B-4A16-905F-EF5868132D23} = {BDC22D5A-595B-45C5-900D-FA3C717D4F3C}
+		{39919461-12D0-4595-A003-8484E6D70FF3} = {3B731B3A-1E8B-4A16-905F-EF5868132D23}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEE7F51E-7EB0-40EB-AD9A-222351962EF5}
+	EndGlobalSection
+EndGlobal

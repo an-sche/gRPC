@@ -22,12 +22,12 @@ type server struct {
 
 func (s *server) SayHello(ctx context.Context, in *pb.HelloRequest) (*pb.HelloResponse, error) {
 	log.Printf("Received: %v", in.GetName())
-	return &pb.HelloResponse{Message: "Hello, " + in.GetName()}, nil
+	return &pb.HelloResponse{Message: "Hello " + in.GetName() + " from go server!"}, nil
 }
 
 func (s *server) SayHelloAgain(ctx context.Context, in *pb.HelloRequest) (*pb.HelloResponse, error) {
 	log.Printf("Received HelloAgain: %v", in.GetName())
-	return &pb.HelloResponse{Message: "Hello again, " + in.GetName()}, nil
+	return &pb.HelloResponse{Message: "Hello again " + in.GetName() + " from go server!"}, nil
 }
 
 func main() {
